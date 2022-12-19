@@ -94,7 +94,7 @@ public class lineDistance {
                 for (int f = distanceIndeces.length - 1; f >= 0; f--) {
                     for (int k = 0; k < distanceIndeces.length; k++) {
                         if (distanceIndeces[k] == f) {
-                            System.out.println((pointHolder[k * 2]) + " " + (pointHolder[k * 2 + 1]));
+                            System.out.println((pointHolder[k * 2]) + " " + (pointHolder[k * 2 + 1] + " | " + pointDistances[k]));
                             distanceIndeces[k] = -1;
                             f++;
                             break;
